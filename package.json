@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "yarn install; lerna bootstrap;",
+    "start": "lerna run start --parallel",
+    "dev": "lerna run dev --parallel",
+    "build": "lerna run build --parallel",
+    "dev:user": "node_modules/.bin/lerna run --scope user --stream dev",
+    "dev:admin": "node_modules/.bin/lerna run --scope admin --stream dev",
+    "start:user": "node_modules/.bin/lerna run --scope user",
+    "start:admin": "node_modules/.bin/lerna run --scope admin",
+    "build:user": "node_modules/.bin/lerna run build --scope user",
+    "build:admin": "node_modules/.bin/lerna run build --scope admin"
+  },
+  "dependencies":{
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  }
+}

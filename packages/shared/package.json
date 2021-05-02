@@ -1,0 +1,26 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Saurav Adhikari <sauravads123@gmail.com>",
+  "homepage": "https://github.com/n3rdkid/devops-react-mono-repo-2-firebase#readme",
+  "license": "ISC",
+  "main": "lib/shared.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n3rdkid/devops-react-mono-repo-2-firebase.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/n3rdkid/devops-react-mono-repo-2-firebase/issues"
+  }
+}
