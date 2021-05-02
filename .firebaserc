@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "devops-react-monorepo-9de22"
+  },
+  "targets": {
+    "devops-react-monorepo-9de22": {
+      "hosting": {
+        "admin": [
+          "monorepo--admin"
+        ],
+        "user": [
+          "monorepo--user"
+        ]
+      }
+    }
+  }
+}
