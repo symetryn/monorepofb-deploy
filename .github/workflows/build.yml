@@ -60,6 +60,7 @@ jobs:
       # - name: Run Tests 
       #   run: |
       #     yarn tests
+      
       - name: Build the project
         run: |
           yarn build

@@ -1,9 +1,9 @@
 {
   "projects": {
-    "default": "devops-react-monorepo"
+    "default": "devops-react-monorepo-9de22"
   },
   "targets": {
-    "devops-react-monorepo": {
+    "devops-react-monorepo-9de22": {
       "hosting": {
         "admin": [
           "monorepo--admin"
