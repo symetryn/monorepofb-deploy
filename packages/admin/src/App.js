@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        Admin is up and running
+        Admin is up and running - Test
       </header>
     </div>
   );
