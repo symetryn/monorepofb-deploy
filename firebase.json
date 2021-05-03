@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "admin",
-      "public": "./packages/admin/build", 
+      "public": "./packages/admin/build",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -16,8 +16,8 @@
       ]
     },
     {
-      "target": "user",  
-      "public": "./packages/user/build",  
+      "target": "user",
+      "public": "./packages/user/build",
       "ignore": [
         "firebase.json",
         "**/.*",
