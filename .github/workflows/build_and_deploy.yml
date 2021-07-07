@@ -67,6 +67,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEVOPS_REACT_MONOREPO_9DE22 }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEPLOY_DEMO_7AC6E }}'
           projectId: devops-react-monorepo-9de22
           channelId: live
