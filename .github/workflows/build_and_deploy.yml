@@ -68,5 +68,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEPLOY_DEMO_7AC6E }}'
-          projectId: devops-react-monorepo-9de22
+          projectId: deploy-demo-7ac6e
           channelId: live
