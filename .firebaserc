@@ -1,15 +1,15 @@
 {
   "projects": {
-    "default": "devops-react-monorepo-9de22"
+    "default": "deploy-demo-7ac6e"
   },
   "targets": {
-    "devops-react-monorepo-9de22": {
+    "deploy-demo-7ac6e": {
       "hosting": {
         "admin": [
-          "monorepo--admin"
+          "rojanmono-admin"
         ],
         "user": [
-          "monorepo--user"
+          "rojanmono-user"
         ]
       }
     }
